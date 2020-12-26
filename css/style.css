@@ -17,7 +17,7 @@ a{
     
 }
 
-/* font-family: 'Playfair Display', serif; */
+
 
 .container{
     max-width: 1200px;
@@ -75,18 +75,21 @@ a{
 }    
 
 .header__inner{
+    position: relative;
     display: flex;
     justify-content: flex-end;
+    
 }
 .header__content{
-
+    position: absolute;
+    max-width: 670px;
+    left: 0;
 }
 
 .header__title{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     font-size: 72px;
-    
     line-height: 96px;
     margin-top: 174px;
     margin-bottom: 20px;   
@@ -95,7 +98,21 @@ a{
     font-size: 22px;
     line-height: 26px;
     width: 600px;
+    margin-bottom: 60px;
 }
+.btn{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #fff;
+    background-color: #F72464;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 33px 11px 33px;
+    box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
 
 
 
